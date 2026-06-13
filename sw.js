@@ -1,11 +1,15 @@
-const CACHE_NAME = "mehealth-v0.7.2";
+const CACHE_NAME = "mehealth-v0.8.0";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./icons/icon-180.png",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/icon-1024.png",
   "./assets/index-DfKhQ5Fu.css",
-  "./assets/index-JTjKY5un.js"
+  "./assets/index-XscGPvRX.js"
 ];
 
 self.addEventListener("install", event => {
