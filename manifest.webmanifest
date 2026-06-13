@@ -2,15 +2,15 @@
   "name": "咪康 MeHealth",
   "short_name": "咪康",
   "description": "健康记录、资料整理和门诊沟通辅助工具",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#F7FBF8",
   "theme_color": "#36B878",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "./icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
