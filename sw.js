@@ -1,5 +1,12 @@
-const CACHE_NAME = "mehealth-v0.7.1-r2";
-const APP_SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon.svg"];
+const CACHE_NAME = "mehealth-v0.7.2";
+const APP_SHELL = [
+  "./",
+  "./index.html",
+  "./manifest.webmanifest",
+  "./icon.svg",
+  "./assets/index-DfKhQ5Fu.css",
+  "./assets/index-JTjKY5un.js"
+];
 
 self.addEventListener("install", event => {
   event.waitUntil(
